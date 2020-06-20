@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class palandromeNumber {
+public class Q5 {
 
     int r=0;
     int temp=0;
@@ -22,7 +22,7 @@ public class palandromeNumber {
 
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
-        palandromeNumber pal = new palandromeNumber();
+        Q5 pal = new Q5();
         System.out.println("Please Enter A Number");
         int n=sc.nextInt();
         int temp=n;

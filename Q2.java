@@ -1,7 +1,7 @@
 package com.company;
 import  java.util.Scanner;
 
-class AreaRectangle{
+class Area{
     int len;
     int bre;
     void setdim(){
@@ -16,13 +16,11 @@ class AreaRectangle{
         int area=len*bre;
         return area;
     }
-}
-class Area {
-
     public static void main(String[] args) {
-        AreaRectangle rec = new AreaRectangle();
+        Area rec = new Area();
         rec.setdim();
         int areaout = rec.getarea();
         System.out.println(areaout);
     }
 }
+

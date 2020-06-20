@@ -1,16 +1,16 @@
 package com.company;
 
 
-public class circle {
+public class Q4 {
 
     private double radius = 1.0;
     String color = "red";
 
-    circle() {
+    Q4() {
         System.out.println("default constructor");
     }
 
-    circle(double radius) {
+    Q4(double radius) {
         this.radius = radius;
         System.out.println("Radius :- " + radius);
     }
@@ -27,7 +27,7 @@ public class circle {
     }
 
     public static void main(String[] args) {
-        circle cir = new circle();
+        Q4 cir = new Q4();
         System.out.println("Radius :- " + cir.getRadius());
         System.out.println("Area of circle :- " + cir.getArea());
     }

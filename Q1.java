@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Scanner;
 
-public class armstrong {
+public class Q1 {
 
     public static void main(String[] args)  {
         int c=0;
